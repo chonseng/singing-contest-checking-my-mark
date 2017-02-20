@@ -1,0 +1,108 @@
+.header h1 {
+	display: inline;
+	color: white;
+	font-size: 20px;
+	line-height: 44px;
+	white-space:nowrap;
+}
+
+.header {
+	background: #313437;
+	height: 44px;
+	margin-bottom: 10px;
+
+}
+
+.header .button {
+	float: right;
+	height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+#marking_wrapper {
+	background: #10B2D5;
+	background: #26A3A8;
+	background: #4A89DC;
+	min-height: 100%;
+	padding: 0 10px;
+}
+
+#marking_wrapper .marking_login {
+	background: white;
+	padding: 40px 30px;
+	width: 100%;
+	max-width: 330px;
+	margin: 20px auto;
+	border-radius: 3px;
+}
+
+.login_logo {
+	background: url(../img/login_logo.png) center center no-repeat;
+	background-size: contain;
+	width: 180px;
+	height: 180px;
+	margin: 20px auto;
+}
+
+.login_title {
+	background: url(../img/login_title.png) center center no-repeat;
+	background-size: contain;
+	width: 207px;
+	height: 73px;
+	margin: 0 auto;
+}
+
+.login_btn {
+/*	border: 0;
+	background: #FFC06E;
+	background: #75A5E4;
+	color: white;
+	height: 52px;
+	font-size: .9rem;
+	-webkit-appearance:none;*/
+}
+.button {
+  top: 2px;
+  background: #75A5E4;
+  border-radius: 5px !important;
+  box-shadow: 0 3px 0px #2363B6;
+  -webkit-appearance:none;
+}
+.button:hover {
+   top: 0px;
+   box-shadow: 0 5px 0px #2363B6;
+   background: #75A5E4;
+}
+
+
+.marking_login input:not(.login_btn) {
+	margin-bottom: 35px;
+	padding: 25px 20px;
+	border-radius: 3px;
+}
+
+.announce {
+	background: #333;
+	color: white;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.announce h2 {
+	color: white;
+	text-align: center;
+}
+
+.announce p {
+	font-size: .9rem;
+	margin: 5px 0;
+}
+
+@media all and (max-width: 460px) {
+	#marking_wrapper .marking_login {
+		padding: 40px 20px;
+	}
+}
